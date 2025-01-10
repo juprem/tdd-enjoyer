@@ -12,9 +12,6 @@ declare module "@remix-run/node" {
 
 export default defineConfig({
   base: "/tdd-enjoyer/",
-  build: {
-    outDir: 'build/',
-  },
   plugins: [
     remix({
       ssr: false,
